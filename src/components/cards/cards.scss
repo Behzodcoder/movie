@@ -1,0 +1,21 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.card {
+    img {
+        width: 300px;
+        height: 400px;
+        margin-bottom: 15px;
+        object-fit: cover;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+}

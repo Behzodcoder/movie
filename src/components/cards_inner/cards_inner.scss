@@ -1,0 +1,64 @@
+body {
+  background-color: darkgrey;
+}
+
+.card_inner {
+  width: 1300px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0 5%;
+  padding-top: 75px;
+  display: flex;
+
+//   .arrow {
+//     width: 35.014px;
+//     height: 25px;
+    
+//   }
+
+  .film_poster {
+    width: 300px;
+    height: 400px;
+  }
+
+  .card_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 35px;
+    .dates {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+
+      .time {
+        img {
+          padding-right: 7px;
+        }
+      }
+
+      .year {
+        img {
+          padding-right: 7px;
+        }
+      }
+    }
+    h3 {
+      font-size: 46px;
+      text-align: center;
+    }
+
+    .desc {
+      text-align: center;
+      margin-top: 15px;
+    }
+  }
+
+  button {
+    border: none;
+    padding: 10px 25px;
+    margin-top: 15px;
+    background-color: aquamarine;
+    cursor: pointer;
+  }
+}
